@@ -23,7 +23,7 @@ function createBoxes(amount) {
   let el = '';
   for (let i = 1; i <= amount; i += 1) {
     const itemColor = getRandomHexColor()
-    el = `<div style="background-color: ${itemColor}; width: ${s}px; height: ${s}px; display: inline-block; padding: 5px"> `
+    el = `<div style="background-color: ${itemColor}; width: ${s}px; height: ${s}px; display: inline-block; margin: 5px"> `
     console.log(el)
     boxes.insertAdjacentHTML('beforeend', el)
     s += 10;
